@@ -8,11 +8,15 @@
 * Ahmad Firoz
 * Prodhan Abdel Rida
 
-####Basic Operation
+####Features
+1. Easy access to A2I informations provided by national portal framework
+2. Built in Bangla typing support
+3. Voice Input system
+4. Categorised structure for easy access
 
-* Intelligent finding about the exact requirement
-* Decoding the data, and getting essential feedback
-* Providing dynamic result from A2I Services, based on collected information
+####Upcoming features
+1. Bangla Speech support
+2. GPS based operation (work on progress)
+3. Nested search
 
-
-#####Demonstration and examples coming soon
+....And many more features are coming
