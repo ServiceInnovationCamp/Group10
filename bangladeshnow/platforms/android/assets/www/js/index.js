@@ -37,7 +37,8 @@ $(document).ready(function(){ //document ready
 		//this is where the complex search algorithm should be written
 		if($('#searchboxx').val()!=""){
 		//var url="http://ahmadfiroz.com/bdnow/?q="+$('#searchboxx').val();
-		var sq=$('#searchboxx').val();
+		var sq;
+		sq=$('#searchboxx').val();
 		$.mobile.changePage("#search",{transition: "flip"});
 		//alert(url);
 		$("#search").html("<p class='loading'>লোড করা হচ্ছে ...</p>");
@@ -51,4 +52,11 @@ $(document).ready(function(){ //document ready
 		});
 	}
 	}
+	$("#cats table td").tap(function(){
+		// alert();
+		var kwrd=$(this).find('h1').html();
+		//alert(kwrd);
+		sq=$('#searchboxx').val(kwrd);
+		dosearch();
+	});
 });
