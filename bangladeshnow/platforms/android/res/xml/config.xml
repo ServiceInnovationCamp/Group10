@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feature name="SpeechRecognizer">
+    <param name="android-package" value="com.phonegap.plugins.speech.SpeechRecognizer" />
+    <access origin="*" />
+    <preference name="useBrowserHistory" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+</feature>

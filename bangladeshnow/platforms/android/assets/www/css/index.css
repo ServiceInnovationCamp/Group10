@@ -1,0 +1,203 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+@media all and (orientation:landscape){
+	.nirdeshika{
+		display:none;
+	}
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+}
+#main{
+	/*position:relative;*/
+	background-color:#e8e8e8;
+	background-image: url('../img/side.png');
+	background-repeat:no-repeat;
+	background-size:80%;
+	background-position:bottom right;
+}
+.speaker{
+	/*border-radius:0% 0% 0% 100%;*/
+	width: 90px;
+	height: 90px;
+	/*background:white;*/
+	position:absolute;
+	right: 0;
+	top: 0;
+	background:url('../img/micall.png') no-repeat;
+	background-size:contain;
+	transition:all 0.1s;
+}
+.speaker:hover{
+	width: 97px;
+	height: 97px;
+	opacity:0.7;
+}
+#searchboxx{
+	background:white;
+	border-radius:5px;
+	display:block;
+	/*position:relative;*/
+	width:95%;
+	font-size:22px;
+	padding:3px 2px;
+	display:block;
+	border:none !important;
+	margin:0px auto;
+	outline:0px;
+	text-align: center;
+	box-shadow:2px 2px gray;
+}
+.inputt{
+	width:100%;
+	margin-top:110px;
+	text-align: center;
+	position:relative;
+}
+
+.searchbtn{
+	position:absolute;
+	/*bottom: 0;
+	right: 0;*/
+	height:25px;
+	position:relative;
+	top:-38px;
+	left: 85%;
+	opacity:0.7;
+	z-index:200;
+}
+.sahajjo{
+	text-align:center;
+	position:relative;
+	top:100px;
+	color:#838383;
+}
+.swipebtn{
+	width: 70px;
+	height: 70px;
+	/*border-radius:50%;*/
+	/*background:#858585;*/
+	/*text-align: center;*/
+	background:url('../img/swipe.png') no-repeat;
+	background-size:contain;
+	position: absolute;
+	left: 0px;
+	bottom: 60px;
+	transition:all 0.1s;
+}
+.swipebtn:hover,.swiprvrc:hover{
+	width: 80px;
+	height: 80px;
+}
+.nirdeshika{
+	color:#1e92b6;
+	width:70%;
+	position:absolute;
+	bottom:40px;
+	right:15px;
+	text-align: justify;
+}
+.nirdeshika h2{
+	color:#79c843;
+}
+.swiprvrc{
+	width: 70px;
+	height: 70px;
+	/*border-radius:50%;*/
+	/*background:#858585;*/
+	/*text-align: center;*/
+	background:url('../img/swipe.png') no-repeat;
+	background-size:contain;
+	position: absolute;
+	right: 0px;
+	bottom: 60px;
+	transition:all 0.1s;
+	-webkit-transform:rotateY(180deg);
+}
+#cats{
+	background:#e8e8e8;
+}
+.tdata td{
+	background:white;
+	width:100%;
+	padding:15px;
+	/*box-shadow:2px 2px gray;*/
+}
+.tdata{
+	width:95%;
+	/*text-align:center;*/
+	margin:1px auto 0px auto;
+}
+.tdata tr{
+	width:100%;
+	margin:5px 0px;
+}
+.tdata h1{
+	color:#79c843;
+	font-weight:normal;
+	margin:0px 0px;
+}
+.tdata h2{
+	font-size:1.3em;
+	font-weight:normal;
+	color:#858585;
+	margin:0px;
+	text-align:justify;
+}
+.tdata p{
+	color:#1e92b6;
+}
+/*.tdata h1:first-letter{
+	color:#79c843;
+}*/
+.searchbtn:hover{
+	background:rgba(0,0,0,0.2);
+}
+.tdata.half td{
+	width:50%;
+}
+.tdata.half{
+	cellpadding:2px;
+	table-layout:fixed;
+}
+.spacer{
+	height:10px;
+}
+.nodata,.nodataf{
+	text-align:center;
+}
+.nodata{
+	font-size:130px;
+	margin-top:30px;
+}
+p.loading{
+	text-align:center;
+	margin-top:140px;
+	font-size:1.3em;
+}
+#search{
+	background:#e8e8e8;
+}
